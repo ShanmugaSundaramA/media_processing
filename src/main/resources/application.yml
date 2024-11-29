@@ -1,0 +1,84 @@
+spring:
+  application:
+    name: video_stream
+  swagger:
+    uri: http://localhost:8060
+  data:
+    mongodb:
+      primary:
+        uri: mongodb://localhost:27017/trove_video_metadata
+      auth:
+        uri: mongodb://localhost:27017/trove_auth
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 200MB
+      max-request-size: 200MB
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    template:
+      mandatory: true
+  main:
+    allow-bean-definition-overriding: true
+  output:
+    ansi:
+      enabled: always
+azure:
+  storage:
+    ConnectionString: 
+    container-name: trove
+    sasTokenDuration: 31536000
+management:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
+logging:
+  level:
+    org:
+      springframework:
+        # web: DEBUG
+        # data:
+        #   mongodb:
+        #     core:
+        #       MongoTemplate: DEBUG
+        #       query: DEBUG
+
+app:
+  secret : 0ad786109c5004850c9e589073e059f15f6e05a4790d1dc2f0aaaa138ae0f511acb0c9801b88c8bed2fe5a36f4c1bda874b53751a6a0f21ab93c8b942d687dfb
+  base:
+    directory: D:\\video_stream_process
+  rabbitmq:
+    trove:
+      direct-exchange: trove_direct_exchange
+      trove-queue1: trove_video_processing_queue
+      trove-routing-key1: trove_video_processing_routing_key
+      trove-routing-key2: trove_km_routing_key
+file-types:
+  audio-extensions: mp3,aac,wav,flac,m4a
+  image-extensions: jpg,jpeg,png,gif,bmp,tiff,webp
+  video-extensions: mp4,avi,mov,mkv,wmv,flv
+  document-extensions: pdf,doc,docx,xls,xlsx,ppt,pptx,txt,csv
+ffmpeg:
+  command:
+    video_has_audio: ffprobe -i "%s" -show_streams -select_streams a -loglevel error
+    video_with_audio: ffmpeg -i "%s" -preset fast -g 48 -sc_threshold 0 -map 0:v:0 -map 0:a:0 -s:v:0 1920x1080 -b:v:0 6000k -maxrate:v:0 5350k -bufsize:v:0 7500k -b:a:0 192k -map 0:v:0 -map 0:a:0 -s:v:1 1280x720 -b:v:1 2800k -maxrate:v:1 2996k -bufsize:v:1 4200k -b:a:1 128k -map 0:v:0 -map 0:a:0 -s:v:2 854x480 -b:v:2 1400k -maxrate:v:2 1498k -bufsize:v:2 2100k -b:a:2 96k -map 0:v:0 -map 0:a:0 -s:v:3 640x360 -b:v:3 800k -maxrate:v:3 856k -bufsize:v:3 1200k -b:a:3 64k -f hls -hls_time 10 -hls_playlist_type vod -hls_segment_filename "%s/v%%v_segment_%%03d.ts" -var_stream_map "v:0,a:0 v:1,a:1 v:2,a:2 v:3,a:3" -master_pl_name "%s" "%s/v%%v.m3u8"
+    video_without_audio: ffmpeg -i "%s" -preset fast -g 48 -sc_threshold 0 -map 0:v:0 -s:v:0 1920x1080 -b:v:0 6000k -maxrate:v:0 5350k -bufsize:v:0 7500k -map 0:v:0 -s:v:1 1280x720 -b:v:1 2800k -maxrate:v:1 2996k -bufsize:v:1 4200k -map 0:v:0 -s:v:2 854x480 -b:v:2 1400k -maxrate:v:2 1498k -bufsize:v:2 2100k -map 0:v:0 -s:v:3 640x360 -b:v:3 800k -maxrate:v:3 856k -bufsize:v:3 1200k -f hls -hls_time 10 -hls_playlist_type vod -hls_segment_filename "%s/v%%v_segment_%%03d.ts" -var_stream_map "v:0 v:1 v:2 v:3" -master_pl_name "%s" "%s/v%%v.m3u8"
+    preview: ffmpeg -i "%s" -t 8 -c:v libx264 -preset fast -crf 23 -map 0:v "%s"
+    thumbnail: ffmpeg -i "%s" -ss 4 -vframes 1 -q:v 2 "%s"
+    audio: ffmpeg -i "%s" -vn -acodec aac -ar 44100 -ac 2 -map 0:a:0 -b:a:0 192k -map 0:a:0 -b:a:1 128k -map 0:a:0 -b:a:2 64k -f hls -hls_time 10 -hls_playlist_type vod -hls_segment_filename "%s/a%%v_segment_%%03d.ts" -var_stream_map "a:0 a:1 a:2" -master_pl_name "%s" "%s/a%%v.m3u8"
+    image:
+      gif: ffmpeg -i "%s" -vf "split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" "%s"
+      generic: ffmpeg -i "%s" -q:v 1 "%s"
+
+server:
+  port: 8060
