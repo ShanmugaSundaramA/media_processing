@@ -1,0 +1,566 @@
+frame= 4126 fps= 29 q=24.0 q=23.0 q=24.0 q=25.0 size=N/A time=00:02:44.96 bitrate=N/A speed=1.16x    frame= 4139 fps= 29 q=24.0 q=22.0 q=24.0 q=25.0 size=N/A time=00:02:45.48 bitrate=N/A speed=1.16x    frame= 4149 fps= 29 q=24.0 q=19.0 q=23.0 q=25.0 size=N/A time=00:02:45.88 bitrate=N/A speed=1.16x    frame= 4170 fps= 29 q=22.0 q=21.0 q=23.0 q=25.0 size=N/A time=00:02:46.72 bitrate=N/A speed=1.16x    frame= 4190 fps= 29 q=20.0 q=20.0 q=23.0 q=24.0 size=N/A time=00:02:47.52 bitrate=N/A speed=1.16x    frame= 4208 fps= 29 q=20.0 q=20.0 q=22.0 q=24.0 size=N/A time=00:02:48.28 bitrate=N/A speed=1.17x    frame= 4221 fps= 29 q=20.0 q=19.0 q=-1.0 q=-1.0 size=N/A time=N/A bitrate=N/A speed=N/A    frame= 4246 fps= 29 q=19.0 q=-1.0 q=-1.0 q=-1.0 size=N/A time=N/A bitrate=N/A speed=N/A    [hls @ 000001ddaa5892c0] Opening 'D:\\video_stream_process\processed_4d31b05d-2ffc-40b1-bf29-3424fa9276e9/v0_segment_016.ts' for writing
+[hls @ 000001ddaa5892c0] Opening 'D:\\video_stream_process\processed_4d31b05d-2ffc-40b1-bf29-3424fa9276e9/v0.m3u8' for writing
+[hls @ 000001ddaa5892c0] Opening 'D:\\video_stream_process\processed_4d31b05d-2ffc-40b1-bf29-3424fa9276e9/v1_segment_016.ts' for writing
+[hls @ 000001ddaa5892c0] Opening 'D:\\video_stream_process\processed_4d31b05d-2ffc-40b1-bf29-3424fa9276e9/v1.m3u8' for writing
+[hls @ 000001ddaa5892c0] Opening 'D:\\video_stream_process\processed_4d31b05d-2ffc-40b1-bf29-3424fa9276e9/v2_segment_016.ts' for writing
+[hls @ 000001ddaa5892c0] Opening 'D:\\video_stream_process\processed_4d31b05d-2ffc-40b1-bf29-3424fa9276e9/v2.m3u8' for writing
+[hls @ 000001ddaa5892c0] Opening 'D:\\video_stream_process\processed_4d31b05d-2ffc-40b1-bf29-3424fa9276e9/v3_segment_016.ts' for writing
+[hls @ 000001ddaa5892c0] Opening 'D:\\video_stream_process\processed_4d31b05d-2ffc-40b1-bf29-3424fa9276e9/v3.m3u8' for writing
+[hls @ 000001ddaa5892c0] Opening 'D:\\video_stream_process\processed_4d31b05d-2ffc-40b1-bf29-3424fa9276e9/master.m3u8' for writing
+[out#0/hls @ 000001dda852db80] video:207809KiB audio:10069KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 4271 fps= 29 q=-1.0 Lq=-1.0 q=-1.0 q=-1.0 size=N/A time=00:02:50.76 bitrate=N/A speed=1.17x    
+[libx264 @ 000001ddaa589940] frame I:89    Avg QP: 9.94  size:285776
+[libx264 @ 000001ddaa589940] frame P:1396  Avg QP:13.70  size: 41060
+[libx264 @ 000001ddaa589940] frame B:2786  Avg QP:18.38  size:  9366
+[libx264 @ 000001ddaa589940] consecutive B-frames:  9.5%  7.0% 10.5% 73.0%
+[libx264 @ 000001ddaa589940] mb I  I16..4: 16.5% 60.1% 23.4%
+[libx264 @ 000001ddaa589940] mb P  I16..4:  2.7% 10.8%  1.9%  P16..4: 18.8% 10.1%  5.3%  0.0%  0.0%    skip:50.4%
+[libx264 @ 000001ddaa589940] mb B  I16..4:  0.7%  2.0%  0.5%  B16..8: 12.5%  5.3%  0.4%  direct: 6.6%  skip:72.1%  L0:48.8% L1:44.0% BI: 7.2%
+[libx264 @ 000001ddaa589940] 8x8 transform intra:66.4% inter:53.7%
+[libx264 @ 000001ddaa589940] coded y,uvDC,uvAC intra: 67.7% 80.2% 55.5% inter: 7.5% 14.1% 2.0%
+[libx264 @ 000001ddaa589940] i16 v,h,dc,p: 28% 32%  7% 32%
+[libx264 @ 000001ddaa589940] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 28% 21% 11%  5%  6%  7%  7%  8%  7%
+[libx264 @ 000001ddaa589940] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 31% 22%  9%  5%  8%  8%  6%  6%  5%
+[libx264 @ 000001ddaa589940] i8c dc,h,v,p: 43% 24% 21% 12%
+[libx264 @ 000001ddaa589940] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 000001ddaa589940] ref P L0: 82.9% 17.1%
+[libx264 @ 000001ddaa589940] ref B L0: 91.2%  8.8%
+[libx264 @ 000001ddaa589940] ref B L1: 97.7%  2.3%
+[libx264 @ 000001ddaa589940] kb/s:5097.06
+[aac @ 000001ddaa4cd540] Qavg: 424.037
+[libx264 @ 000001ddaa4cc300] frame I:89    Avg QP: 9.42  size:167811
+[libx264 @ 000001ddaa4cc300] frame P:2383  Avg QP:12.75  size: 15588
+[libx264 @ 000001ddaa4cc300] frame B:1799  Avg QP:18.80  size:  3398
+[libx264 @ 000001ddaa4cc300] consecutive B-frames: 39.0% 11.3% 10.0% 39.7%
+[libx264 @ 000001ddaa4cc300] mb I  I16..4: 14.9% 42.8% 42.2%
+[libx264 @ 000001ddaa4cc300] mb P  I16..4:  1.4%  4.2%  1.9%  P16..4: 22.6%  7.7%  4.5%  0.0%  0.0%    skip:57.7%
+[libx264 @ 000001ddaa4cc300] mb B  I16..4:  0.1%  0.6%  0.5%  B16..8: 14.3%  3.5%  0.5%  direct: 4.5%  skip:75.9%  L0:55.0% L1:37.9% BI: 7.1%
+[libx264 @ 000001ddaa4cc300] 8x8 transform intra:51.1% inter:44.1%
+[libx264 @ 000001ddaa4cc300] coded y,uvDC,uvAC intra: 75.7% 84.0% 62.1% inter: 9.0% 12.0% 2.2%
+[libx264 @ 000001ddaa4cc300] i16 v,h,dc,p: 26% 35% 14% 25%
+[libx264 @ 000001ddaa4cc300] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 23% 15%  5%  6%  7%  6%  7%  7%
+[libx264 @ 000001ddaa4cc300] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 20% 10%  6%  7%  8%  7%  8%  6%
+[libx264 @ 000001ddaa4cc300] i8c dc,h,v,p: 40% 27% 20% 13%
+[libx264 @ 000001ddaa4cc300] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 000001ddaa4cc300] ref P L0: 90.2%  9.8%
+[libx264 @ 000001ddaa4cc300] ref B L0: 92.6%  7.4%
+[libx264 @ 000001ddaa4cc300] ref B L1: 97.7%  2.3%
+[libx264 @ 000001ddaa4cc300] kb/s:2725.01
+[aac @ 000001ddaa4cc680] Qavg: 451.030
+[libx264 @ 000001ddaa4cca40] frame I:89    Avg QP:11.74  size: 89814
+[libx264 @ 000001ddaa4cca40] frame P:1489  Avg QP:15.59  size: 10284
+[libx264 @ 000001ddaa4cca40] frame B:2693  Avg QP:20.93  size:  2143
+[libx264 @ 000001ddaa4cca40] consecutive B-frames: 11.9%  8.7%  9.8% 69.6%
+[libx264 @ 000001ddaa4cca40] mb I  I16..4:  6.7% 57.6% 35.7%
+[libx264 @ 000001ddaa4cca40] mb P  I16..4:  0.8%  6.9%  2.1%  P16..4: 20.4% 10.8%  8.0%  0.0%  0.0%    skip:51.1%
+[libx264 @ 000001ddaa4cca40] mb B  I16..4:  0.3%  1.3%  0.8%  B16..8: 10.2%  5.0%  0.8%  direct: 4.7%  skip:76.9%  L0:43.6% L1:41.0% BI:15.4%
+[libx264 @ 000001ddaa4cca40] 8x8 transform intra:62.9% inter:50.0%
+[libx264 @ 000001ddaa4cca40] coded y,uvDC,uvAC intra: 82.3% 91.1% 75.0% inter: 9.6% 12.7% 2.9%
+[libx264 @ 000001ddaa4cca40] i16 v,h,dc,p: 17% 35% 10% 38%
+[libx264 @ 000001ddaa4cca40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 20% 23% 10%  6%  8%  8%  8%  9%  9%
+[libx264 @ 000001ddaa4cca40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 21%  9%  6%  9%  9%  8%  8%  7%
+[libx264 @ 000001ddaa4cca40] i8c dc,h,v,p: 40% 27% 18% 14%
+[libx264 @ 000001ddaa4cca40] Weighted P-Frames: Y:0.1% UV:0.1%
+[libx264 @ 000001ddaa4cca40] ref P L0: 83.5% 16.5%
+[libx264 @ 000001ddaa4cca40] ref B L0: 90.6%  9.4%
+[libx264 @ 000001ddaa4cca40] ref B L1: 97.8%  2.2%
+[libx264 @ 000001ddaa4cca40] kb/s:1361.63
+[aac @ 000001ddaa4cce00] Qavg: 413.051
+[libx264 @ 000001ddaa4cd1c0] frame I:89    Avg QP:13.39  size: 51423
+[libx264 @ 000001ddaa4cd1c0] frame P:1887  Avg QP:16.79  size:  4889
+[libx264 @ 000001ddaa4cd1c0] frame B:2295  Avg QP:22.59  size:  1253
+[libx264 @ 000001ddaa4cd1c0] consecutive B-frames: 23.4% 12.0%  8.9% 55.7%
+[libx264 @ 000001ddaa4cd1c0] mb I  I16..4: 11.2% 48.1% 40.7%
+[libx264 @ 000001ddaa4cd1c0] mb P  I16..4:  0.7%  4.3%  1.8%  P16..4: 19.2%  9.6% 10.1%  0.0%  0.0%    skip:54.3%
+[libx264 @ 000001ddaa4cd1c0] mb B  I16..4:  0.2%  1.2%  0.8%  B16..8:  9.2%  5.3%  1.2%  direct: 4.1%  skip:78.0%  L0:45.7% L1:38.1% BI:16.2%
+[libx264 @ 000001ddaa4cd1c0] 8x8 transform intra:56.5% inter:49.6%
+[libx264 @ 000001ddaa4cd1c0] coded y,uvDC,uvAC intra: 83.2% 92.6% 72.3% inter: 10.0% 12.5% 2.6%
+[libx264 @ 000001ddaa4cd1c0] i16 v,h,dc,p: 17% 44% 15% 24%
+[libx264 @ 000001ddaa4cd1c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 21% 12%  6%  7%  8%  8%  8%  9%
+[libx264 @ 000001ddaa4cd1c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 19% 12%  6%  8%  9%  8%  8%  7%
+[libx264 @ 000001ddaa4cd1c0] i8c dc,h,v,p: 44% 27% 18% 11%
+[libx264 @ 000001ddaa4cd1c0] Weighted P-Frames: Y:0.2% UV:0.2%
+[libx264 @ 000001ddaa4cd1c0] ref P L0: 84.6% 15.4%
+[libx264 @ 000001ddaa4cd1c0] ref B L0: 91.0%  9.0%
+[libx264 @ 000001ddaa4cd1c0] ref B L1: 97.6%  2.4%
+[libx264 @ 000001ddaa4cd1c0] kb/s:780.90
+[aac @ 000001ddaa4cbb80] Qavg: 26.820
+ffmpeg version N-117825-g970d57988d-20241118 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20241118
+  libavutil      59. 47.100 / 59. 47.100
+  libavcodec     61. 25.100 / 61. 25.100
+  libavformat    61.  9.100 / 61.  9.100
+  libavdevice    61.  4.100 / 61.  4.100
+  libavfilter    10.  6.101 / 10.  6.101
+  libswscale      8.  9.101 /  8.  9.101
+  libswresample   5.  4.100 /  5.  4.100
+  libpostproc    58.  4.100 / 58.  4.100
+Input #0, image2, from 'D:\video_stream_process\63524f3a-abc4-4e31-b375-ae662a1d93bf_pexels-drphotographer152-29558148.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 646332 kb/s
+  Stream #0:0: Video: mjpeg (Progressive), yuvj420p(pc, bt470bg/unknown/unknown), 4000x6000 [SAR 72:72 DAR 2:3], 25 fps, 25 tbr, 25 tbn
+[AVFormatContext @ 00000272edc93480] Unable to choose an output format for 'D:\\video_stream_process\processed_63524f3a-abc4-4e31-b375-ae662a1d93bf'; use a standard extension for the filename or specify the format manually.
+[out#0 @ 00000272edc5db80] Error initializing the muxer for D:\\video_stream_process\processed_63524f3a-abc4-4e31-b375-ae662a1d93bf: Invalid argument
+Error opening output file D:\\video_stream_process\processed_63524f3a-abc4-4e31-b375-ae662a1d93bf.
+Error opening output files: Invalid argument
+ffmpeg version N-117825-g970d57988d-20241118 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20241118
+  libavutil      59. 47.100 / 59. 47.100
+  libavcodec     61. 25.100 / 61. 25.100
+  libavformat    61.  9.100 / 61.  9.100
+  libavdevice    61.  4.100 / 61.  4.100
+  libavfilter    10.  6.101 / 10.  6.101
+  libswscale      8.  9.101 /  8.  9.101
+  libswresample   5.  4.100 /  5.  4.100
+  libpostproc    58.  4.100 / 58.  4.100
+Input #0, image2, from 'D:\video_stream_process\40508535-b5f3-4fdb-8693-370763c830cc_pexels-drphotographer152-29558148.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 646332 kb/s
+  Stream #0:0: Video: mjpeg (Progressive), yuvj420p(pc, bt470bg/unknown/unknown), 4000x6000 [SAR 72:72 DAR 2:3], 25 fps, 25 tbr, 25 tbn
+[AVFormatContext @ 0000015650cd2580] Unable to choose an output format for 'D:\\video_stream_process\processed_40508535-b5f3-4fdb-8693-370763c830cc'; use a standard extension for the filename or specify the format manually.
+[out#0 @ 0000015650c9a340] Error initializing the muxer for D:\\video_stream_process\processed_40508535-b5f3-4fdb-8693-370763c830cc: Invalid argument
+Error opening output file D:\\video_stream_process\processed_40508535-b5f3-4fdb-8693-370763c830cc.
+Error opening output files: Invalid argument
+ffmpeg version N-117825-g970d57988d-20241118 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20241118
+  libavutil      59. 47.100 / 59. 47.100
+  libavcodec     61. 25.100 / 61. 25.100
+  libavformat    61.  9.100 / 61.  9.100
+  libavdevice    61.  4.100 / 61.  4.100
+  libavfilter    10.  6.101 / 10.  6.101
+  libswscale      8.  9.101 /  8.  9.101
+  libswresample   5.  4.100 /  5.  4.100
+  libpostproc    58.  4.100 / 58.  4.100
+Input #0, image2, from 'D:\video_stream_process\e4635eab-550b-4089-8384-e815933bbea1_pexels-drphotographer152-29558148.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 646332 kb/s
+  Stream #0:0: Video: mjpeg (Progressive), yuvj420p(pc, bt470bg/unknown/unknown), 4000x6000 [SAR 72:72 DAR 2:3], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (mjpeg (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'D:\\video_stream_process\processed_e4635eab-550b-4089-8384-e815933bbea1\compressed_e4635eab-550b-4089-8384-e815933bbea1_pexels-drphotographer152-29558148.jpg':
+  Metadata:
+    encoder         : Lavf61.9.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt470bg/unknown/unknown, progressive), 4000x6000 [SAR 72:72 DAR 2:3], q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      encoder         : Lavc61.25.100 mjpeg
+    Side data:
+      ICC Profile
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 0000020c5783f640] The specified filename 'D:\\video_stream_process\processed_e4635eab-550b-4089-8384-e815933bbea1\compressed_e4635eab-550b-4089-8384-e815933bbea1_pexels-drphotographer152-29558148.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0000020c5783f640] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0000020c57812480] video:3982KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=1.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.122x    
+ffmpeg version N-117825-g970d57988d-20241118 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20241118
+  libavutil      59. 47.100 / 59. 47.100
+  libavcodec     61. 25.100 / 61. 25.100
+  libavformat    61.  9.100 / 61.  9.100
+  libavdevice    61.  4.100 / 61.  4.100
+  libavfilter    10.  6.101 / 10.  6.101
+  libswscale      8.  9.101 /  8.  9.101
+  libswresample   5.  4.100 /  5.  4.100
+  libpostproc    58.  4.100 / 58.  4.100
+Input #0, image2, from 'D:\video_stream_process\e56e3285-e653-4c88-94e1-68004c586bfd_pexels-drphotographer152-29558148.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 646332 kb/s
+  Stream #0:0: Video: mjpeg (Progressive), yuvj420p(pc, bt470bg/unknown/unknown), 4000x6000 [SAR 72:72 DAR 2:3], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (mjpeg (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'D:\\video_stream_process\processed_e56e3285-e653-4c88-94e1-68004c586bfd\compressed_e56e3285-e653-4c88-94e1-68004c586bfd_pexels-drphotographer152-29558148.jpg':
+  Metadata:
+    encoder         : Lavf61.9.100
+  Stream #0:0: Video: mjpeg, yuvj420p(pc, bt470bg/unknown/unknown, progressive), 4000x6000 [SAR 72:72 DAR 2:3], q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      encoder         : Lavc61.25.100 mjpeg
+    Side data:
+      ICC Profile
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 0000023d46972f80] The specified filename 'D:\\video_stream_process\processed_e56e3285-e653-4c88-94e1-68004c586bfd\compressed_e56e3285-e653-4c88-94e1-68004c586bfd_pexels-drphotographer152-29558148.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0000023d46972f80] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0000023d4693d9c0] video:3982KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=1.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0862x    
+ffmpeg version N-117825-g970d57988d-20241118 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20241118
+  libavutil      59. 47.100 / 59. 47.100
+  libavcodec     61. 25.100 / 61. 25.100
+  libavformat    61.  9.100 / 61.  9.100
+  libavdevice    61.  4.100 / 61.  4.100
+  libavfilter    10.  6.101 / 10.  6.101
+  libswscale      8.  9.101 /  8.  9.101
+  libswresample   5.  4.100 /  5.  4.100
+  libpostproc    58.  4.100 / 58.  4.100
+Input #0, gif, from 'D:\video_stream_process\21b092b8-e290-4f16-b71b-11e16b93a57d_winter-16014.gif':
+  Metadata:
+    comment         : GIF edited with https://ezgif.com/overlay
+  Duration: 00:00:01.20, start: 0.000000, bitrate: 23897 kb/s
+  Stream #0:0: Video: gif, bgra, 899x1000, 10 fps, 10 tbr, 100 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (gif (native) -> gif (native))
+Press [q] to stop, [?] for help
+[Parsed_palettegen_1 @ 0000021c98bfc840] 255(+1) colors generated out of 1668 colors; ratio=0.152878
+Output #0, gif, to 'D:\\video_stream_process\processed_21b092b8-e290-4f16-b71b-11e16b93a57d\compressed_21b092b8-e290-4f16-b71b-11e16b93a57d_winter-16014.gif':
+  Metadata:
+    comment         : GIF edited with https://ezgif.com/overlay
+    encoder         : Lavf61.9.100
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 899x1000, q=2-31, 200 kb/s, 10 fps, 100 tbn
+    Metadata:
+      encoder         : Lavc61.25.100 gif
+frame=    7 fps=0.0 q=-0.0 size=    1536KiB time=00:00:00.70 bitrate=17975.6kbits/s speed=1.39x    [out#0/gif @ 0000021c98bfdc40] video:3790KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000515%
+frame=   12 fps=0.0 q=-0.0 Lsize=    3790KiB time=00:00:01.20 bitrate=25872.4kbits/s speed=1.49x    
+ffmpeg version N-117825-g970d57988d-20241118 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20241118
+  libavutil      59. 47.100 / 59. 47.100
+  libavcodec     61. 25.100 / 61. 25.100
+  libavformat    61.  9.100 / 61.  9.100
+  libavdevice    61.  4.100 / 61.  4.100
+  libavfilter    10.  6.101 / 10.  6.101
+  libswscale      8.  9.101 /  8.  9.101
+  libswresample   5.  4.100 /  5.  4.100
+  libpostproc    58.  4.100 / 58.  4.100
+Input #0, mp3, from 'D:\video_stream_process\970f0400-e220-4de3-b46c-21aee6aebac9_Free_Test_Data_1OMB_MP3 (1).mp3':
+  Duration: 00:07:13.50, start: 0.025057, bitrate: 193 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 193 kb/s
+    Metadata:
+      encoder         : LAME3.100
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> aac (native))
+  Stream #0:0 -> #0:1 (mp3 (mp3float) -> aac (native))
+  Stream #0:0 -> #0:2 (mp3 (mp3float) -> aac (native))
+Press [q] to stop, [?] for help
+[mpegts @ 000002620b75e900] frame size not set
+[mpegts @ 000002620bcb0200] frame size not set
+[mpegts @ 000002620bcb2700] frame size not set
+Output #0, hls, to 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a%v.m3u8':
+  Metadata:
+    encoder         : Lavf61.9.100
+  Stream #0:0: Audio: aac (LC), 44100 Hz, stereo, fltp, 192 kb/s (default)
+    Metadata:
+      encoder         : Lavc61.25.100 aac
+  Stream #0:1: Audio: aac (LC), 44100 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavc61.25.100 aac
+  Stream #0:2: Audio: aac (LC), 44100 Hz, stereo, fltp, 64 kb/s
+    Metadata:
+      encoder         : Lavc61.25.100 aac
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_000.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_000.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_000.ts' for writing
+size=N/A time=00:00:18.27 bitrate=N/A speed=35.5x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_001.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_001.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_001.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_002.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_002.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_002.ts' for writing
+size=N/A time=00:00:37.98 bitrate=N/A speed=  37x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_003.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_003.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_003.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_004.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_004.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_004.ts' for writing
+size=N/A time=00:00:58.30 bitrate=N/A speed=37.8x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_005.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_005.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_005.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_006.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_006.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_006.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_007.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_007.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_007.ts' for writing
+size=N/A time=00:01:23.35 bitrate=N/A speed=40.5x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_008.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_008.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_008.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_009.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_009.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_009.ts' for writing
+size=N/A time=00:01:44.58 bitrate=N/A speed=40.7x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_010.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_010.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_010.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_011.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_011.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_011.ts' for writing
+size=N/A time=00:02:05.31 bitrate=N/A speed=40.6x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_012.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_012.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_012.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_013.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_013.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_013.ts' for writing
+size=N/A time=00:02:27.33 bitrate=N/A speed=40.8x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_014.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_014.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_014.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_015.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_015.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_015.ts' for writing
+size=N/A time=00:02:47.64 bitrate=N/A speed=40.6x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_016.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_016.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_016.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_017.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_017.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_017.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_018.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_018.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_018.ts' for writing
+size=N/A time=00:03:12.91 bitrate=N/A speed=41.6x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_019.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_019.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_019.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_020.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_020.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_020.ts' for writing
+size=N/A time=00:03:34.38 bitrate=N/A speed=41.6x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_021.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_021.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_021.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_022.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_022.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_022.ts' for writing
+size=N/A time=00:03:59.04 bitrate=N/A speed=42.2x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_023.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_023.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_023.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_024.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_024.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_024.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_025.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_025.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_025.ts' for writing
+size=N/A time=00:04:20.57 bitrate=N/A speed=42.1x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_026.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_026.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_026.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_027.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_027.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_027.ts' for writing
+size=N/A time=00:04:43.56 bitrate=N/A speed=42.3x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_028.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_028.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_028.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_029.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_029.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_029.ts' for writing
+size=N/A time=00:05:05.71 bitrate=N/A speed=42.3x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_030.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_030.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_030.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_031.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_031.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_031.ts' for writing
+size=N/A time=00:05:26.79 bitrate=N/A speed=42.2x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_032.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_032.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_032.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_033.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_033.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_033.ts' for writing
+size=N/A time=00:05:48.64 bitrate=N/A speed=42.3x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_034.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_034.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_034.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_035.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_035.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_035.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_036.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_036.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_036.ts' for writing
+size=N/A time=00:06:10.96 bitrate=N/A speed=42.3x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_037.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_037.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_037.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_038.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_038.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_038.ts' for writing
+size=N/A time=00:06:33.62 bitrate=N/A speed=42.4x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_039.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_039.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_039.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_040.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_040.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_040.ts' for writing
+size=N/A time=00:06:58.40 bitrate=N/A speed=42.7x    [hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_041.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_041.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_041.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_042.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_042.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_042.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0_segment_043.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a0.m3u8' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1_segment_043.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a1.m3u8' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2_segment_043.ts' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/a2.m3u8' for writing
+[hls @ 0000026209c1d180] Opening 'D:\\video_stream_process\processed_970f0400-e220-4de3-b46c-21aee6aebac9/master.m3u8' for writing
+[out#0/hls @ 0000026209bf0180] video:0KiB audio:20938KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:07:13.46 bitrate=N/A speed=42.8x    
+[aac @ 0000026209c2c8c0] Qavg: 469.628
+[aac @ 0000026209c32f80] Qavg: 507.795
+[aac @ 0000026209c33340] Qavg: 352.656
+ffmpeg version N-117825-g970d57988d-20241118 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (crosstool-NG 1.26.0.120_4d36f27)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-libxml2 --enable-lzma --enable-fontconfig --enable-libharfbuzz --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20241118
+  libavutil      59. 47.100 / 59. 47.100
+  libavcodec     61. 25.100 / 61. 25.100
+  libavformat    61.  9.100 / 61.  9.100
+  libavdevice    61.  4.100 / 61.  4.100
+  libavfilter    10.  6.101 / 10.  6.101
+  libswscale      8.  9.101 /  8.  9.101
+  libswresample   5.  4.100 /  5.  4.100
+  libpostproc    58.  4.100 / 58.  4.100
+Input #0, mp3, from 'D:\video_stream_process\876a1403-a224-4f89-b217-b46dac47ef12_Free_Test_Data_1OMB_MP3 (1).mp3':
+  Duration: 00:07:13.50, start: 0.025057, bitrate: 193 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 193 kb/s
+    Metadata:
+      encoder         : LAME3.100
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> aac (native))
+  Stream #0:0 -> #0:1 (mp3 (mp3float) -> aac (native))
+  Stream #0:0 -> #0:2 (mp3 (mp3float) -> aac (native))
+Press [q] to stop, [?] for help
+[mpegts @ 0000025cb608d900] frame size not set
+[mpegts @ 0000025cb6604500] frame size not set
+[mpegts @ 0000025cb6607200] frame size not set
+Output #0, hls, to 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a%v.m3u8':
+  Metadata:
+    encoder         : Lavf61.9.100
+  Stream #0:0: Audio: aac (LC), 44100 Hz, stereo, fltp, 192 kb/s (default)
+    Metadata:
+      encoder         : Lavc61.25.100 aac
+  Stream #0:1: Audio: aac (LC), 44100 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavc61.25.100 aac
+  Stream #0:2: Audio: aac (LC), 44100 Hz, stereo, fltp, 64 kb/s
+    Metadata:
+      encoder         : Lavc61.25.100 aac
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_000.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_000.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_000.ts' for writing
+size=N/A time=00:00:16.95 bitrate=N/A speed=32.8x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_001.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_001.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_001.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_002.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_002.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_002.ts' for writing
+size=N/A time=00:00:36.10 bitrate=N/A speed=  35x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_003.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_003.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_003.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_004.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_004.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_004.ts' for writing
+size=N/A time=00:00:56.74 bitrate=N/A speed=36.6x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_005.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_005.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_005.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_006.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_006.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_006.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_007.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_007.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_007.ts' for writing
+size=N/A time=00:01:20.94 bitrate=N/A speed=39.4x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_008.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_008.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_008.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_009.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_009.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_009.ts' for writing
+size=N/A time=00:01:44.95 bitrate=N/A speed=40.7x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_010.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_010.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_010.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_011.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_011.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_011.ts' for writing
+size=N/A time=00:02:08.80 bitrate=N/A speed=41.6x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_012.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_012.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_012.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_013.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_013.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_013.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_014.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_014.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_014.ts' for writing
+size=N/A time=00:02:31.44 bitrate=N/A speed=41.9x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_015.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_015.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_015.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_016.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_016.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_016.ts' for writing
+size=N/A time=00:02:56.23 bitrate=N/A speed=42.6x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_017.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_017.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_017.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_018.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_018.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_018.ts' for writing
+size=N/A time=00:03:19.87 bitrate=N/A speed=43.1x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_019.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_019.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_019.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_020.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_020.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_020.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_021.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_021.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_021.ts' for writing
+size=N/A time=00:03:41.72 bitrate=N/A speed=  43x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_022.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_022.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_022.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_023.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_023.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_023.ts' for writing
+size=N/A time=00:04:04.41 bitrate=N/A speed=43.1x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_024.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_024.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_024.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_025.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_025.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_025.ts' for writing
+size=N/A time=00:04:24.31 bitrate=N/A speed=42.7x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_026.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_026.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_026.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_027.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_027.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_027.ts' for writing
+size=N/A time=00:04:43.21 bitrate=N/A speed=42.3x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_028.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_028.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_028.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_029.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_029.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_029.ts' for writing
+size=N/A time=00:05:03.67 bitrate=N/A speed=42.1x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_030.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_030.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_030.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_031.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_031.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_031.ts' for writing
+size=N/A time=00:05:25.05 bitrate=N/A speed=  42x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_032.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_032.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_032.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_033.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_033.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_033.ts' for writing
+size=N/A time=00:05:45.28 bitrate=N/A speed=41.8x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_034.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_034.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_034.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_035.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_035.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_035.ts' for writing
+size=N/A time=00:06:05.08 bitrate=N/A speed=41.6x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_036.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_036.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_036.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_037.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_037.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_037.ts' for writing
+size=N/A time=00:06:24.10 bitrate=N/A speed=41.3x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_038.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_038.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_038.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_039.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_039.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_039.ts' for writing
+size=N/A time=00:06:47.20 bitrate=N/A speed=41.5x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_040.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_040.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_040.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_041.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_041.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_041.ts' for writing
+size=N/A time=00:07:09.75 bitrate=N/A speed=41.6x    [hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_042.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_042.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_042.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0_segment_043.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a0.m3u8' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1_segment_043.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a1.m3u8' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2_segment_043.ts' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/a2.m3u8' for writing
+[hls @ 0000025cb45ec880] Opening 'D:\\video_stream_process\processed_876a1403-a224-4f89-b217-b46dac47ef12/master.m3u8' for writing
+[out#0/hls @ 0000025cb45bcb80] video:0KiB audio:20938KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:07:13.46 bitrate=N/A speed=41.6x    
+[aac @ 0000025cb45fcfc0] Qavg: 469.628
+[aac @ 0000025cb4602580] Qavg: 507.795
+[aac @ 0000025cb4603ac0] Qavg: 352.656

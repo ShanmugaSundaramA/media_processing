@@ -1,0 +1,137 @@
+{"properties": [
+  {
+    "name": "azure.storage.Connection-string",
+    "type": "java.lang.String",
+    "description": "A description for 'azure.storage.Connection-string'"
+  },
+  {
+    "name": "azure.storage.sasTokenDuration",
+    "type": "java.lang.String",
+    "description": "A description for 'azure.storage.sasTokenDuration'"
+  },
+  {
+    "name": "azure.storage.container-name",
+    "type": "java.lang.String",
+    "description": "A description for 'azure.storage.container-name'"
+  },
+  {
+    "name": "spring.data.mongodb.primary.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb.primary.uri'"
+  },
+  {
+    "name": "spring.data.mongodb.auth.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data.mongodb.auth.uri'"
+  },
+  {
+    "name": "app.rabbitmq.trove.direct-exchange",
+    "type": "java.lang.String",
+    "description": "For trove video processing direct exchange"
+  },
+  {
+    "name": "app.rabbitmq.trove.trove-queue1",
+    "type": "java.lang.String",
+    "description": "For trove video processing queue"
+  },
+  {
+    "name": "app.rabbitmq.trove.trove-routing-key1",
+    "type": "java.lang.String",
+    "description": "For trove video processing routing key"
+  },
+  {
+    "name": "file-types.audio-extensions",
+    "type": "java.lang.String",
+    "description": "A description for 'file-types.audio-extensions'"
+  },
+  {
+    "name": "file-types.image-extensions",
+    "type": "java.lang.String",
+    "description": "A description for 'file-types.image-extensions'"
+  },
+  {
+    "name": "file-types.video-extensions",
+    "type": "java.lang.String",
+    "description": "A description for 'file-types.video-extensions'"
+  },
+  {
+    "name": "file-types.document-extensions",
+    "type": "java.lang.String",
+    "description": "A description for 'file-types.document-extensions'"
+  },
+  {
+    "name": "app.base.directory",
+    "type": "java.lang.String",
+    "description": "A description for 'app.base.directory'"
+  },
+  {
+    "name": "app.rabbitmq.trove.trove-routing-key2",
+    "type": "java.lang.String",
+    "description": "A description for 'app.rabbitmq.trove.trove-routing-key2'"
+  },
+  {
+    "name": "ffmpeg.command.video-has-audio",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.video-has-audio'"
+  },
+  {
+    "name": "ffmpeg.command.video-with-audio",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.video-with-audio'"
+  },
+  {
+    "name": "ffmpeg.command.video-without-audio",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.video-without-audio'"
+  },
+  {
+    "name": "ffmpeg.command.audio",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.audio'"
+  },
+  {
+    "name": "ffmpeg.command.preview",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.preview'"
+  },
+  {
+    "name": "ffmpeg.command.thumbnail",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.thumbnail'"
+  },
+  {
+    "name": "ffmpeg.command.image.jpeg",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.image.jpeg'"
+  },
+  {
+    "name": "ffmpeg.command.image.png",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.image.png'"
+  },
+  {
+    "name": "ffmpeg.command.image.gif",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.image.gif'"
+  },
+  {
+    "name": "ffmpeg.command.image.generic",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.image.generic'"
+  },
+  {
+    "name": "ffmpeg.command.image.jpeg_jpg",
+    "type": "java.lang.String",
+    "description": "A description for 'ffmpeg.command.image.jpeg_jpg'"
+  },
+  {
+    "name": "spring.swagger.uri",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.swagger.uri'"
+  },
+  {
+    "name": "app.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'app.secret'"
+  }
+]}
