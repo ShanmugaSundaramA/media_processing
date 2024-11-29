@@ -2,7 +2,7 @@ spring:
   application:
     name: video_stream
   swagger:
-    uri: http://localhost:8060
+    uri: http://localhost:8080
   data:
     mongodb:
       primary:
